@@ -1,0 +1,869 @@
+/* general */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.btn_beige {
+  background-color: #f6efe8;
+  border: 1px solid #611f69;
+  color: #611f69;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 3px;
+  margin-left: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.btn_beige:hover {
+  box-shadow: inset 0 0 0 2px #611f69;
+}
+
+.btn_purple {
+  border: 1px solid white;
+  background-color: #611f69;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn_purple:hover {
+  background-color: #4a154b;
+  border-color: #4a154b;
+}
+
+.btn_white {
+  border: 1px solid #611f69;
+  background-color: white;
+  color: #611f69;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 3px;
+  margin-left: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.btn_white:hover {
+  border: 2px solid #611f69;
+}
+
+.bg_color_light_beige {
+  background-color: #f6efe8;
+}
+
+.bg_color_light_grey {
+  background-color: #ebeaeb;
+}
+
+.bg_color_light_yellow {
+  background: #f5f5f5;
+}
+
+.hover_over_blue:hover {
+  color: #1264a3;
+}
+
+.link_style {
+  text-decoration: none;
+  color: #1264a3;
+}
+
+.link_style:hover {
+  text-decoration: underline #1264a3;
+}
+
+.font_w_normal {
+  font-weight: normal;
+}
+
+.section_title_50 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.title_center {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.smaller_title {
+  font-size: smaller;
+}
+
+.color_black {
+  color: black;
+}
+
+/* navbar */
+nav {
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  background-color: #f6efe8;
+  overflow: hidden;
+  z-index: 100;
+  width: 100%;
+}
+
+nav .logo_container {
+  display: inline-block;
+}
+
+img.slack_logo {
+  position: relative;
+  top: 10px;
+  width: 40px;
+}
+
+nav .main-nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+nav .main-nav div > button {
+  margin-top: 20px;
+}
+
+nav a span.nav_title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+header nav a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 14px;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav button.btn_beige {
+  padding: 12px;
+  border: 1px solid #611f69;
+}
+
+nav button.btn_purple {
+  padding: 12px;
+  /* margin-right: 304px; */
+  margin-bottom: 20px;
+}
+
+nav button.btn_purple:hover {
+  border: 2px solid #611f69;
+}
+
+nav i.fa-bars {
+  display: none;
+}
+
+/* section1 */
+
+.description1 {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.description1 .container {
+  max-width: 500px;
+}
+
+.description1 img#slack_connect {
+  max-width: 550px;
+  width: 50%;
+}
+
+.description1 div.container span.section_subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.description1 div.container a.font_w_normal {
+  color: #1264a3;
+}
+
+.description1 > div {
+  max-width: 1230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+}
+
+/* section2  */
+.description2 .container {
+  max-width: 500px;
+}
+
+.description2 > div {
+  max-width: 1230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.description2 video {
+  width: 640px;
+  max-width: 50%;
+  border-radius: 3px;
+  margin-top: -20px;
+}
+
+.description2 .container_right p {
+  font-size: 20px;
+}
+
+/* section 3 */
+.description3 .container {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.description3 .container div.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 380px;
+  padding: 30px 20px 20px 0;
+  font-size: 17px;
+}
+
+.description3 .container div.item a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.description3 .container .item img {
+  max-width: 48px;
+  padding-bottom: 30px;
+}
+/* section4 */
+
+.description4 .main_sport_container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.description4 .main_sport_container .title_sport_container {
+  text-align: center;
+}
+.description4 .main_sport_container .content_sport_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.description4 .main_sport_container .content_sport_container img {
+  max-width: 50%;
+}
+.description4 .content_sport_container .sport_description {
+  font-size: 28px;
+  font-style: italic;
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma,
+    Arial, sans-serif;
+  font-weight: 300;
+  padding: 50px 20px 0 40px;
+}
+
+.description4 .logo_sport_container {
+  margin-left: 55%;
+}
+
+.description4 .logo_sport_container img {
+  max-width: 70px;
+}
+
+.description4 .companies-logo {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 70px 20px;
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+/* section 5 */
+.description5 .container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.description5 .container img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.footer_text {
+  font-size: small;
+  color: grey;
+  text-align: center;
+}
+
+/* section 6 */
+
+.description6 div.container_box {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 70px 0;
+  max-width: 1230px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.description6 .container_inner ul {
+  padding-left: 0;
+}
+
+.description6 .container_inner ul li {
+  list-style: none;
+  line-height: 40px;
+  text-align: start;
+  font-size: 18px;
+}
+
+.font_18 {
+  font-size: 18px;
+}
+
+.description6 .container_inner ul li i {
+  color: #4a164b;
+}
+
+.description6 .container_box .container_inner img {
+  max-width: 300px;
+  width: 80%;
+  padding: 0 50px;
+}
+
+.description6 .container_right_6 img {
+  max-width: 600px;
+  width: 80%;
+  padding: 0 50px;
+}
+/* section7 */
+.description7 h2.section_title_50 {
+  text-align: center;
+  padding: 40px;
+}
+
+.description7 div.container_wrap {
+  max-width: 1030px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 200px;
+}
+
+.description7 div.container_wrap .box_section {
+  max-width: 300px;
+  height: 440px;
+}
+
+.description7 div.container_wrap .box_section img {
+  max-width: 250px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.description7 .container_wrap .box_section {
+  transition: transform 0.4s;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.description7 .container_wrap .box_section p,
+.description7 .container_wrap .box_section h2 {
+  margin-left: 10px;
+}
+
+.description7 .container_wrap .box_section:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 15px 0px rgba(183, 183, 183, 0.96);
+  background: #fff;
+  transition: transform 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.description7 div.container_wrap .box_section a.link_style {
+  vertical-align: bottom;
+  text-transform: uppercase;
+  font-weight: 700px;
+  padding: 20px 20px;
+}
+
+.description7 div.container_wrap .box_section i.fa-arrow-right {
+  margin-left: 70px;
+}
+
+.description7 .container_wrap .box_section span {
+  position: relative;
+  top: 96px;
+}
+
+.description7 .container_wrap .box_section span.last_span {
+  position: relative;
+  top: 40px;
+}
+
+.description7 .container_ressource_btn {
+  position: relative;
+}
+
+.description7 div.container_ressource_btn button.btn_white {
+  position: absolute;
+  top: 500px;
+  right: 450px;
+  width: 230px;
+}
+
+.description7 div.three_dots_see_more {
+  display: none;
+}
+
+.description7 .container_wrap > button {
+  display: none;
+}
+/* description8 */
+.description8 {
+  background-color: #611f69;
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+
+.description8 h2 {
+  color: white;
+}
+
+/* footer */
+footer section div.footer_inner_container {
+  max-width: 1230px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+footer .footer_inner_container .slack_logo_footer {
+  margin-right: 50px;
+}
+
+footer section .footer_inner_container .footer_menu_box_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 1;
+}
+
+footer section div.footer_inner_container .footer_menu_box {
+  display: inline-flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* margin-right: 70px; */
+  vertical-align: top;
+  /* margin-top: 50px; */
+  /* max-width: 100%; */
+  padding: 40px 0;
+}
+footer section div.footer_inner_container .footer_menu_box .smaller_title {
+  margin-bottom: 10px;
+}
+footer section div.footer_inner_container .footer_menu_box a {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  color: #454545;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
+  font-size: 12px;
+}
+
+footer section div.footer_inner_container .footer_menu_box a:hover {
+  color: #1264a3;
+}
+
+footer hr {
+  color: grey;
+}
+
+footer div.footer_inner_container div.footer_menu_box h5 span {
+  display: none;
+}
+
+#terms_contact {
+  background-color: #eaeaea;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 400px;
+}
+
+#terms_contact a {
+  margin-left: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+#terms_contact select {
+  background: #eaeaea;
+}
+
+a i {
+  color: black;
+}
+
+#links {
+  padding-left: 80%;
+}
+
+#copyright {
+  font-size: smaller;
+  padding-left: 400px;
+}
+
+@media (max-width: 1279px) {
+  .description2 video {
+    margin-top: 70px;
+    margin: 70px 20px;
+  }
+
+  .description2 .container {
+    margin: 0px 20px;
+  }
+  .description3 .container {
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 1172px) {
+  .description1 .container > button {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1078px) {
+  nav .main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+  }
+
+  header nav .hover_over_blue,
+  header nav button {
+    display: none;
+  }
+
+  nav div.logo_container span.nav_title {
+    font-size: 30px;
+  }
+
+  nav i.fa-bars {
+    display: inline-block;
+    font-size: 17px;
+    cursor: pointer;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .description2 > div {
+    flex-direction: column-reverse;
+    max-width: 1023px;
+    width: 100%;
+  }
+
+  .description2 .container {
+    max-width: initial;
+  }
+
+  .description2 div video {
+    max-width: 95%;
+    width: 100%;
+  }
+
+  /* description8 */
+  .description8 .container {
+    background-color: #611f69;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description8 .container a {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .description8 h2 {
+    color: white;
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 767px) {
+  /* description1 */
+  .description1 > div {
+    flex-direction: column;
+  }
+
+  .description1 img#slack_connect {
+    width: 100%;
+  }
+
+  .description1 .container,
+  .description2 .container {
+    max-width: initial;
+  }
+
+  .description1 span.section_subtitle {
+    font-size: 20px;
+  }
+
+  .description1 .container h1.section_title_50 {
+    font-size: 45px;
+    margin: 0;
+  }
+
+  .description1 .container p {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  .description1 div.container button {
+    display: block;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  .description1 div.container h4.font_w_normal {
+    white-space: nowrap;
+  }
+
+  /* description2  */
+  .description2 video {
+    margin-left: 20px;
+  }
+  /* description3  */
+
+  .description3 .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description3 .container div.item {
+    max-width: 767px;
+    padding-left: 20px;
+  }
+
+  /* description4 */
+
+  .description4 .main_sport_container .content_sport_container img {
+    max-width: 100%;
+  }
+
+  .description4 .main_sport_container .content_sport_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description4 .logo_sport_container {
+    margin-left: 7%;
+  }
+
+  .description4 .companies-logo img {
+    margin: 10px;
+  }
+
+  /* description 5 */
+
+  .description5 {
+    display: none;
+  }
+
+  /* description6 */
+
+  .description6 br {
+    display: none;
+  }
+  .description6 .container_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .description6 .container_box .container_inner img {
+    max-width: 200px;
+    padding: 0 50px;
+  }
+
+  .description6 .container_right_6 {
+    text-align: center;
+  }
+
+  .description6 .container_right_6 img {
+    max-width: 400px;
+    padding: 0 50px;
+  }
+
+  .description6 .container_box:nth-child(2) {
+    padding: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .description6 .container_box .enterprise_container {
+    text-align: center;
+  }
+
+  .description6 .container_box .container_inner img {
+    padding-top: 50px;
+  }
+
+  /* description7 */
+
+  .description7 div.display_none_mobile {
+    display: none;
+  }
+
+  .description7 div.container_wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 767px;
+    padding-bottom: 50px;
+  }
+
+  .description7 .container_wrap .box_section {
+    margin: 0 auto;
+  }
+
+  .description7 .container_wrap .three_dots_see_more {
+    display: block;
+    margin: 0 auto;
+    font-size: 110px;
+    color: #c8cacc;
+  }
+
+  .description7 .container_wrap .three_dots_see_more span:hover {
+    color: #4a154b;
+    cursor: pointer;
+  }
+
+  .description7 .container_wrap .container_ressource_btn {
+    display: none;
+  }
+
+  .description7 div.container_wrap button.btn_white {
+    display: inline;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .description7 .container_wrap > button {
+    display: none;
+  }
+
+  /* footer - terms */
+  footer .line_delimitation {
+    height: 2px;
+    background-color: #eaeaea;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  footer .terms_container {
+    max-width: 767px;
+  }
+
+  footer #terms_contact {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 767px;
+    padding-left: 10px;
+  }
+
+  footer #terms_contact > * {
+    margin: 15px 0;
+    font-weight: 600;
+  }
+
+  footer .terms_container #terms_contact select#region {
+    background: #fff;
+    font-size: 0.9em;
+    max-width: 140px;
+  }
+
+  footer div#links {
+    max-width: 767px;
+    width: 100%;
+    margin: 20px auto;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer p#copyright {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 479px) {
+  footer .footer_inner_container {
+    flex-direction: column;
+  }
+  footer .footer_inner_container .footer_menu_box_container {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  footer div.footer_inner_container div.footer_menu_box a {
+    display: none;
+  }
+
+  footer div.footer_inner_container div.footer_menu_box {
+    display: block;
+    padding: 0;
+  }
+
+  footer div.footer_inner_container div.footer_menu_box h5 span {
+    display: inline;
+    float: right;
+    font-size: 1.2rem;
+    font-weight: 100;
+  }
+
+  footer div.footer_inner_container div.footer_menu_box h5 span:hover {
+    cursor: pointer;
+  }
+}
